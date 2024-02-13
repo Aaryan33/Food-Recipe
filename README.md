@@ -1,23 +1,15 @@
-<<<<<<< HEAD
+
 # Food-Recipe Website
-=======
-# RecipeBox
- a web application that allows you to easily search for and explore a wide variety of delicious recipes.
 
-- **Search**: Quickly search for recipes based on keywords, ingredients, or dish names.
-- **Explore**: Browse through a curated collection of recipes from various cuisines.
-- **View Recipe**: Get detailed information about a recipe, including ingredients and cooking instructions.
-- **Tutorial**: Access step-by-step tutorials for preparing each recipe.
-- **Responsive**: Enjoy a seamless experience on both desktop and mobile devices.
+The "Food Recipe Book" is a web-based platform designed to provide users with a diverse collection of
+recipes from around the world. It aims to inspire and guide users in the kitchen, offering a wide range of
+recipes suitable for various tastes and preferences. The platform encourages both seasoned chefs and
+cooking novices to explore new flavors and embark on a culinary journey.
 
+# Features
 
-## Technologies Used
+ -> Search for Recipes: Users can search for recipes by entering keywords in the search box. The website fetches recipes from the MealDB API based on the user's query and displays them on the homepage.
 
-- HTML
-- CSS
-- JavaScript
-- API integration for recipe data.
+ -> View Recipe Details: Users can view detailed information about a recipe, including the list of ingredients, cooking instructions, and a link to watch a tutorial video.
 
-## live demo 
-https://chiragpatil05.github.io/RecipeApp/
->>>>>>> 352392f (first commit)
+ -> Navigation: The website includes navigation links to the homepage, about page, and contact page. Users can navigate between pages without refreshing the browser.
