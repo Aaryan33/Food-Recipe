@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About - Recipe Book</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,9 +16,68 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
+                <li><button id="userLoginBtn" class="login-btn">User Login</button></li>
+                <li><button id="adminLoginBtn" class="login-btn">Admin Login</button></li>
+                <li><button id="logoutBtn" class="logout-btn" style="display: none;">Logout</button></li>
             </ul>
         </nav>
     </header>
+
+    <!-- User Login Modal -->
+    <div id="userLoginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeUserModal">&times;</span>
+            <h2>User Login</h2>
+            <form id="userLoginForm">
+                <label for="userEmail">Email:</label>
+                <input type="email" id="userEmail" name="userEmail" required>
+
+                <label for="userPassword">Password:</label>
+                <input type="password" id="userPassword" name="userPassword" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="userRegisterLink">Register here</a></p>
+        </div>
+    </div>
+
+    <!-- Admin Login Modal -->
+    <div id="adminLoginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeAdminModal">&times;</span>
+            <h2>Admin Login</h2>
+            <form id="adminLoginForm">
+                <label for="adminEmail">Email:</label>
+                <input type="email" id="adminEmail" name="adminEmail" required>
+
+                <label for="adminPassword">Password:</label>
+                <input type="password" id="adminPassword" name="adminPassword" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- User Registration Modal -->
+    <div id="userRegisterModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeUserRegisterModal">&times;</span>
+            <h2>User Registration</h2>
+            <form id="userRegisterForm">
+                <label for="registerName">Name:</label>
+                <input type="text" id="registerName" name="registerName" required>
+
+                <label for="registerEmail">Email:</label>
+                <input type="email" id="registerEmail" name="registerEmail" required>
+
+                <label for="registerPassword">Password:</label>
+                <input type="password" id="registerPassword" name="registerPassword" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
     <main>
         <section>
             <div class="card-box">
